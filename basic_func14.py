@@ -8,8 +8,6 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-     return floor(a / b)
-a = int(input())
-b = int(input())
-print(main(a, b))
+    return floor(int(a)/int(b))
+print(main(7, 5))
     
