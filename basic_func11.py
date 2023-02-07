@@ -7,10 +7,7 @@ def main(a):
     Returns:
         int: the absolute value.
     '''
-     return abs(a)
+    number = int(a)
+    return abs(number)
+print(main(-3.4))
 
-a = int(input())
-
-print(main(a))
-
-    
