@@ -7,10 +7,13 @@ def main(a):
     Returns:
         float: the result
     '''
-    return round(a,2)
+    number = float(a)
+    return round(number, 2)
 
-a = float(input())
 
-print(main(a))
+print(main(3.45556))
 
-    
+
+
+
+   
