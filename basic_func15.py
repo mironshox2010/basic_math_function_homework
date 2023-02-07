@@ -10,6 +10,5 @@ def main(a, b):
     '''
      return (a % b)
 
-a = int(input())
-b = int(input())
+
 print(main(a, b))
